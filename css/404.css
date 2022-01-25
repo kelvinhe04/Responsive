@@ -1,0 +1,293 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+/*===========================my codes=========================*/
+
+* {
+  box-sizing: border-box;
+}
+/*=========================== NAV BAR =========================*/
+.navbar {
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  z-index: 999;
+}
+.navbar ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.navbar li {
+  width: 120px;
+  margin: 15px;
+  display: block;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+  padding: 22px 20px;
+}
+
+/*===========================ROG TEXT=========================*/
+.navbar .rog {
+  font-family: fantasy;
+  font-size: 24px;
+  padding: 13px 20px;
+}
+
+/*=============drop down menu of navbar=========*/
+.sub-navbar {
+  display: none;
+  text-align: center;
+}
+.navbar li:hover .sub-navbar {
+  display: block;
+  position: absolute;
+  background-color: #282828;
+  margin-top: 17px;
+  margin-left: -20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.navbar li:hover .sub-navbar ul {
+  display: block;
+  margin: 10px;
+}
+.navbar li:hover .sub-navbar li {
+  padding: 15px;
+  border-bottom: 1px solid white;
+  margin: 0 auto;
+  width: auto;
+}
+.sub-navbar1 {
+  display: none;
+}
+.navbar li:hover .sub-navbar1 {
+  display: block;
+  position: absolute;
+  background-color: #282828;
+  margin-top: 17px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 210px;
+}
+.navbar li:hover .sub-navbar1 ul {
+  display: block;
+  margin: 10px;
+}
+.navbar li:hover .sub-navbar1 li {
+  padding: 15px;
+  border-bottom: 1px solid white;
+  width: auto;
+  margin: 0 auto;
+}
+.navbar li:hover .sub-navbar1 a {
+  width: 10px;
+  padding: 10px;
+}
+
+/*=============text color when hover=========*/
+.navbar a:hover {
+  color: #cd363a;
+}
+/*============= banner ==================*/
+.banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 50px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+/*============= img below banner ==================*/
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+.paragraph {
+  font-size: 3rem;
+  color: #cccccc;
+}
+.sub-paragraph {
+  font-size: 2rem;
+  color: #cccccc;
+}
+body {
+  background-color: #181a1b;
+}

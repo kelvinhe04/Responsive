@@ -1,0 +1,30 @@
+footer {
+  background-color: black;
+  height: 80px;
+  clear: both;
+}
+.footer-letters {
+  vertical-align: middle;
+}
+.footer-letters p {
+  float: left;
+  color: green;
+  margin-right: 20px;
+  font-size: 13px;
+  padding: 5px;
+  left: 850px;
+  vertical-align: middle;
+  top: 1000px;
+}
+
+.logo {
+  cursor: pointer;
+  width: 250px;
+  height: 41px;
+  z-index: 4;
+  position: relative;
+  left: 100px;
+}
+<li><a href="index.html" class="rog">ROG</a></li>
+
+<img class="logo" src="image/rog-logo.png">
